@@ -4,6 +4,11 @@
   "description": "This repositories shows how www.js13kgames.com could be written with hexo.io",
   "main": "index.js",
   "scripts": {
+    "build": "cd js13kgames && hexo generate --bail",
+    "build:dev": "cd js13kgames && hexo generate --watch",
+    "debug": "cd js13kgames && hexo debug",
+    "deploy": "cd js13kgames && hexo deploy --generate",
+    "start": "cd js13kgames && hexo server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

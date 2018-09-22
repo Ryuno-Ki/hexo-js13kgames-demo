@@ -1,0 +1,14 @@
+{
+    "partners": [
+        {
+            "name": "Mozilla",
+            "link": "https://games.mozilla.org/",
+            "logo": "/img/partners/2018/mozilla.png"
+        },
+        {
+            "name": "Microsoft",
+            "link": "https://dev.microsoftedge.com/",
+            "logo": "/img/partners/2018/microsoft.png"
+        }
+    ]
+}
