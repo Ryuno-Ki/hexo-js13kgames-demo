@@ -8,6 +8,7 @@
     "build:dev": "cd js13kgames && hexo generate --watch",
     "debug": "cd js13kgames && hexo debug",
     "deploy": "cd js13kgames && hexo deploy --generate",
+    "new": "cd js13kgames && hexo new page",
     "start": "cd js13kgames && hexo server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +29,6 @@
   "homepage": "https://github.com/Ryuno-Ki/hexo-js13kgames-demo#readme",
   "devDependencies": {
     "hexo-cli": "1.1.0"
-  }
+  },
+  "dependencies": {}
 }

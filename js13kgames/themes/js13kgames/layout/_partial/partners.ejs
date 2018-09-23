@@ -1,0 +1,8 @@
+<h2><%= __("partners.title") %></h2>
+
+<% for (var i = 0; i < partners.length; i++) { %>
+  <% var partner = partners[i] %>
+  <a href="<%= partner.link %>" target="_blank" rel="noopener noreferrer">
+      <img src="<%= partner.logo %>" alt="<%= partner.name %>" />
+  </a>
+<% } %>
